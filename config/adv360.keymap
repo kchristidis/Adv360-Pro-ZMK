@@ -36,11 +36,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL         &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 1                                                                                    &mo 3                    &kp N6  &kp N7  &kp N8            &kp N9    &kp N0    &kp MINUS
-&kp TAB           &kp Q      &kp W     &kp E     &kp R      &kp T   &kp MINUS                                                                                 &hm ESCAPE LG(SPACE)     &kp Y   &kp U   &kp I             &kp O     &kp P     &kp BSLH
-&hm LG(W) ESCAPE  &kp A      &kp S     &kp D     &kp F      &kp G   &kp LC(TAB)    &kp LEFT_GUI  &kp LALT               &kp LEFT_GUI       &kp RIGHT_CONTROL  &hm LA(LG(X)) LA(LG(C))  &kp H   &kp J   &kp K             &kp L     &kp SEMI  &kp SQT
-&kp LSHFT         &kp Z      &kp X     &kp C     &kp V      &kp B                                &hm HOME PAGE_UP       &kp LG(BACKSLASH)                                              &kp N   &kp M   &hm ESCAPE COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&mo 2             &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BACKSPACE  &kp DELETE    &hm END PAGE_DOWN      &kp LC(TILDE)      &kp ENTER          &kp SPACE                        &kp UP  &kp DOWN          &kp LBKT  &kp RBKT  &kp RSHIFT
+&kp EQUAL         &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 1                                                                                          &mo 3                    &kp N6  &kp N7  &kp N8            &kp N9    &kp N0    &kp MINUS
+&kp TAB           &kp Q      &kp W     &kp E     &kp R      &kp T   &kp MINUS                                                                                       &hm ESCAPE LG(SPACE)     &kp Y   &kp U   &kp I             &kp O     &kp P     &kp BSLH
+&hm LG(W) ESCAPE  &kp A      &kp S     &kp D     &kp F      &kp G   &hm LA(TAB) LC(TAB)  &kp LEFT_GUI  &kp LALT               &kp LEFT_GUI       &kp RIGHT_CONTROL  &hm LA(LG(X)) LA(LG(C))  &kp H   &kp J   &kp K             &kp L     &kp SEMI  &kp SQT
+&kp LSHFT         &kp Z      &kp X     &kp C     &kp V      &kp B                                      &hm HOME PAGE_UP       &kp LG(BACKSLASH)                                              &kp N   &kp M   &hm ESCAPE COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+&mo 2             &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BACKSPACE        &kp DELETE    &hm END PAGE_DOWN      &kp LC(TILDE)      &kp ENTER          &kp SPACE                        &kp UP  &kp DOWN          &kp LBKT  &kp RBKT  &kp RSHIFT
             >;
         };
 
